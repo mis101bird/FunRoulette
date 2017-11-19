@@ -10,7 +10,6 @@
         document.getElementById('run').addEventListener('click', function(){
             var roulette = document.getElementById('roulette')
             var randomDeg = (180 + Math.ceil(Math.random() * 360))
-            console.log(randomDeg)
             roulette.style.transform = 'rotate('+ randomDeg +'deg)'
         })
     }
